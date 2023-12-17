@@ -1,12 +1,12 @@
+import TodoList from "./features/todos/TodoList"
+
  
  
 function App() {
-  const [count, setCount] = useState(0)
-
+ 
   return (
-    <>
-     Hello world
-    </>
+  
+<TodoList/> 
   )
 }
 
